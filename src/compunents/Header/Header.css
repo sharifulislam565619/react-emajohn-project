@@ -1,0 +1,25 @@
+.logo img{
+  width: 300px;
+}
+
+.logo{
+    margin: 0 auto;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    padding: 15px 0;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}

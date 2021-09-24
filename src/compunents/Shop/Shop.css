@@ -1,0 +1,25 @@
+
+.search-field{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.733);
+
+}
+.search-field input{
+    width: 50%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.shop-container{
+    margin-right: 5px;
+    border-right: 1px solid rgb(190, 190, 190);
+    margin-left: 50px;
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+  
+}

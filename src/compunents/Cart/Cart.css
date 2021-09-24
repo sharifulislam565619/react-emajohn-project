@@ -1,0 +1,23 @@
+.cart{
+    background-color: #fff490;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+table{
+    text-align: end;
+    margin: 0 auto;
+    border-collapse: collapse;
+   
+}
+
+table tr{
+   border-bottom: 1px solid gray;
+}
+tr:last-child {
+  border: none;
+}
+ 
