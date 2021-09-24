@@ -10,7 +10,7 @@ const Cart = (props) => {
 
     return (
         <div className="cart">
-            <h3>Order summary</h3>
+            <h3>Cart order summary</h3>
             <h5>Items ordered:{props.cart.length}</h5>
             <table>
                 <tbody>
