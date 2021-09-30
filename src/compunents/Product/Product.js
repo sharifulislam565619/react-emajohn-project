@@ -7,6 +7,8 @@ import Rating from 'react-rating';
 
 
 
+
+
 const Product = (props) => {
     // console.log(props)
     const { name, img, price, stock, seller, star } = props.product;
@@ -35,7 +37,3 @@ const Product = (props) => {
 };
 
 export default Product;
-
-
-
-
