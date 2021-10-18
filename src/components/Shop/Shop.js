@@ -29,7 +29,11 @@ const Shop = () => {
             for (const key in saveCart) {
                 const addedProduct = products.find(product => product.key === key
                 )
-                showCart.push(addedProduct)
+                if (addedProduct) {
+                    const quantity = saveCart[key]
+                    addedProduct.quantity = quantity
+                    showCart.push(addedProduct)
+                }
 
             }
             setCart(showCart)
@@ -69,7 +73,7 @@ const Shop = () => {
                         productAddToCart={productAddToCart}
                     ></Product>)}
                 </div>
-                <div className="cart-container">
+                <div>
                     <Cart cart={cart}>
                         <NavLink to="/order">
                             <button className='add-cart-btn'>Order review</button>

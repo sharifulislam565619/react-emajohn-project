@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 import { useHistory } from 'react-router';
 import useCart from '../../hooks/useCart';
 import useProducts from '../../hooks/useProducts';
@@ -21,8 +20,8 @@ const Order = () => {
     }
     const history = useHistory()
     const handleOrderPlace = () => {
-        history.push('/orderPlace')
-        clearTheCart()
+        history.push('/shipping')
+
     }
     return (
         <div className="main-container">

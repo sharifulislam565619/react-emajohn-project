@@ -1,5 +1,8 @@
 .logo img{
-  width: 300px;
+    width: 106px;
+    background: white;
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 .logo{
@@ -9,9 +12,10 @@
 .navbar{
     background-color: black;
     padding: 15px 0;
-
+    display: flex;
+    justify-content: space-around;
 }
-.navbar a{
+.menu a{
     text-decoration: none;
     font-size: 24px;
     margin-right: 20px;
@@ -19,7 +23,7 @@
     color: white;
     border-radius: 10px;
 }
-.navbar a:hover{
+.menu a:hover{
     background-color: blanchedalmond;
     color: black;
 }
